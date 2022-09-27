@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Slider</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- image slider start  -->
+	<div class="slider">
+		<div class="slides">
+			<input type="radio" name="radio-btn" id="radio1" checked="checked" >
+			<input type="radio" name="radio-btn" id="radio2">
+			<input type="radio" name="radio-btn" id="radio3">
+			<input type="radio" name="radio-btn" id="radio4">
+			
+			<div class="slide fisrt">
+				<div class="slide-item">
+					<img class="slide-img" src="https://cdn.tgdd.vn/2020/06/content/hinh-nen-lien-minh-huyen-thoai-dep-mat-cho-pc-va-dien-thoai-background-800x450.jpg" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide-item">
+					<img class="slide-img" src="https://cdn.dribbble.com/userupload/3581119/file/original-81e7fe13f90757d4650dbc2ad2f99e12.png?compress=1&resize=1600x1200" alt="">
+				</div>
+			</div>
+			
+			<div class="slide">
+				<div class="slide-item">
+					<img class="slide-img" src="https://cdn.dribbble.com/userupload/3626312/file/original-392aaa7d20814aa1bf3187563221c7da.jpg?compress=1&resize=1500x1200" alt="">
+				</div>
+			</div>
+			<div class="slide">
+				<div class="slide-item">
+					<img class="slide-img" src="https://cdn.dribbble.com/userupload/3626114/file/original-b98abd24bef348179506b4e196d2c53e.jpeg?compress=1&resize=1200x900" alt="">
+				</div>
+			</div>
+			<!-- auto navigation start -->
+			<div class="nav-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+				<div class="auto-btn4"></div>
+			</div>
+	
+		</div>
+		<!-- image slider end  -->
+		
+		<!-- manual navigation start -->
+		<div class="nav-manual">
+			<label for="radio1" class="manual-btn"></label>
+			<label for="radio2" class="manual-btn"></label>
+			<label for="radio3" class="manual-btn"></label>
+			<label for="radio4" class="manual-btn"></label>
+		</div>
+	<script src="./slider.js"></script>
+	
+</body>
+</html>
